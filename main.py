@@ -30,3 +30,18 @@ subtracao2(900,800)
 nome=["abelha","girafa","porco"]
 print(nome)
 print(nome[0])
+nome.append("cachorro")
+nome.append("morcego")
+nome.append("cavalo")
+#-----------------------------------------------------------------------------------------
+for i in range(len(nome)):
+    print(i)
+    print(nome[i])
+    if nome[i] == "porco":
+        print("Oinc")
+    elif nome[i] == "cachorro":
+        print("au au")
+    elif nome[i] == "cavalo":
+        print("relincha")
+    else:
+        print("eu não sou porco, nem cavalo nem cachorro")
